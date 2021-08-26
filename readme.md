@@ -21,6 +21,11 @@ I test the code with the following packages. Other versions may also work, but I
   - For Tiangong dataset, we preprocess it and you can download it from the [link]()
 - Unzip the data
 
+#### Contrastive Learning Stage
+
+
+#### Ranking Stage
+
 
 The diarectory structure is:
 ```
