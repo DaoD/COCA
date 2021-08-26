@@ -78,7 +78,7 @@ logger.write("\n")
 
 if args.task == "aol":
     train_data = "./data/aol/train.pos.txt"
-    test_data = "./data/aol/test.pos.txt"
+    test_data = "./data/aol/dev.pos.txt"
     tokenizer = BertTokenizer.from_pretrained(args.bert_model_path)
     additional_tokens = 3
     tokenizer.add_tokens("[eos]")
@@ -86,7 +86,7 @@ if args.task == "aol":
     tokenizer.add_tokens("[sent_del]")
 elif args.task == "tiangong":
     train_data = "./data/tiangong/train.pos.txt"
-    test_data = "./data/tiangong/test.pos.txt"
+    test_data = "./data/tiangong/dev.pos.txt"
     tokenizer = BertTokenizer.from_pretrained(args.bert_model_path)
     additional_tokens = 4
     tokenizer.add_tokens("[eos]")
