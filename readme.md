@@ -29,13 +29,21 @@ python runBertContras.py --task aol --bert_model_path ../BERT/BertModel/
 
 #### Tiangong Dataset
 ```
-python runBertContras.py --task tiangong --bert_model_path ../BERT/BertChinese/
+python runBertContras.py --task tiangong --bert_model_path ../BERT/BertChinese/ --epochs 5 --temperature 0.05
 ```
 
 We will share the model after contrastive learning as soon as possible!
 
 ### Ranking Stage
+#### AOL Dataset
+```
+python runBert.py --task aol --bert_model_path ../BERT/BertModel/ --pretrain_model_path ../ContrastiveLearning/model/BertContrastive.aol.4.10.128.sent_deletion.term_deletion.qd_reorder
+```
 
+#### Tiangong Dataset
+```
+python runBert.py --task tiangong --bert_model_path ../BERT/BertChinese/ --pretrain_model_path ../ContrastiveLearning/model/BertContrastive.tiangong.5.5.128.sent_deletion.term_deletion.qd_reorder
+```
 
 The diarectory structure is:
 ```
