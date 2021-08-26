@@ -22,7 +22,17 @@ I test the code with the following packages. Other versions may also work, but I
 - Unzip the data
 
 ### Contrastive Learning Stage
+#### AOL Dataset
+```
+python runBertContras.py --task aol --bert_model_path ../BERT/BertModel/
+```
 
+#### Tiangong Dataset
+```
+python runBertContras.py --task tiangong --bert_model_path ../BERT/BertChinese/
+```
+
+We will share the model after contrastive learning as soon as possible!
 
 ### Ranking Stage
 
