@@ -78,6 +78,6 @@ If you use the code and datasets, please cite the following paper:
   booktitle = {{CIKM} '21: The 30th {ACM} International Conference on Information
                and Knowledge Management, Virtual Event, QLD, Australia, November 1-5, 2021},
   publisher = {{ACM}},
-  year      = {2021},
+  year      = {2021}
 }
 ```
