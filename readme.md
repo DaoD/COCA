@@ -90,7 +90,7 @@ COCA
 ## Citations
 If you use the code and datasets, please cite the following paper:  
 ```
-@inproceedings{ZhuNZDJD21,
+@inproceedings{ZhuNDMZDZJ21,
   author    = {Yutao Zhu and
                Jian{-}Yun Nie and
                Zhicheng Dou and
