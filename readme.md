@@ -43,7 +43,9 @@ python runBert.py --task aol --bert_model_path ../BERT/BertModel/ --pretrain_mod
 python runBert.py --task tiangong --bert_model_path ../BERT/BertChinese/ --pretrain_model_path ../ContrastiveLearning/model/BertContrastive.tiangong.5.5.128.sent_deletion.term_deletion.qd_reorder
 ```
 
-The trained model in both stages are available at the [link](https://drive.google.com/drive/folders/1_EgQg3lRVST07G5v9M9YpXvyF4nv2mgK?usp=sharing).
+### Trained Model
+
+The trained model in both stages are available at the [link](https://drive.google.com/drive/folders/1_EgQg3lRVST07G5v9M9YpXvyF4nv2mgK?usp=sharing)
 
 The diarectory structure is:
 ```
