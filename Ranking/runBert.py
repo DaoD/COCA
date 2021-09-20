@@ -111,10 +111,7 @@ def set_seed(seed=0):
     torch.backends.cudnn.deterministic = True
 
 def train_model():
-    if args.task == "aol":
-        bert_model = BertModel.from_pretrained(args.bert_model_path)
-    elif args.task == "tiangong":
-        bert_model = BertModel.from_pretrained(args.bert_model_path)
+    bert_model = BertModel.from_pretrained(args.bert_model_path)
     bert_model.resize_token_embeddings(bert_model.config.vocab_size + additional_tokens)
     model_state_dict = torch.load(args.pretrain_model_path)
     bert_model.load_state_dict({k.replace('bert_model.', ''):v for k, v in model_state_dict.items()}, strict=False)
@@ -242,10 +239,7 @@ def predict(model, X_test, X_test_pre=None):
         return y_pred, y_label
 
 def test_model():
-    if args.task == "aol":
-        bert_model = BertModel.from_pretrained(args.bert_model_path)
-    elif args.task == "tiangong":
-        bert_model = BertModel.from_pretrained(args.bert_model_path)
+    bert_model = BertModel.from_pretrained(args.bert_model_path)
     model = BertSessionSearch(bert_model)
     model.bert_model.resize_token_embeddings(model.bert_model.config.vocab_size + additional_tokens)
     model_state_dict = torch.load(args.save_path)
