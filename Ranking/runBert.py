@@ -247,7 +247,7 @@ def test_model():
     model = model.to(device)
     model = torch.nn.DataParallel(model)
     if args.task == "aol":
-        evaluate(model, predict_data, None, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], True)
+        evaluate(model, predict_data, None, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], is_test=True)
     elif args.task == "tiangong":
         evaluate(model, predict_last_data, None, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], X_test_preq=predict_pre_data, is_test=True)
 
