@@ -18,7 +18,7 @@ I test the code with the following packages. Other versions may also work, but I
 ## Usage
 - Download the data. 
   - For AOL dataset, please contact the author of [CARS](https://arxiv.org/pdf/1906.02329.pdf)
-  - For Tiangong dataset, we preprocess it and you can download it from the [link](http://www.thuir.cn/tiangong-st/)
+  - For Tiangong dataset, you can download it from the [link](http://www.thuir.cn/tiangong-st/)
 - Unzip the data
 
 ### Contrastive Learning Stage
