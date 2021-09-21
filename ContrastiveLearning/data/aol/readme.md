@@ -1,1 +1,2 @@
-for data
+Data format:
+query1<\t>clicked doc1<\t>query2<\t>clicked doc2<\t>...
