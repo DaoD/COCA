@@ -1,0 +1,10 @@
+1	mapquest com	official mapquest maps driving directions live traffic
+0	mapquest com	mapquest driving directions
+0	mapquest com	official mapquest maps driving directions live traffic
+0	mapquest com	mapquest developer network mapping encoding routes traffic mapquest developer network
+0	mapquest com	official mapquest maps driving directions live traffic
+1	mapquest com	official mapquest maps driving directions live traffic	mapquest com	official mapquest maps driving directions live traffic
+0	mapquest com	official mapquest maps driving directions live traffic	mapquest com	official mapquest maps driving directions live traffic
+0	mapquest com	official mapquest maps driving directions live traffic	mapquest com	mapquest driving directions
+0	mapquest com	official mapquest maps driving directions live traffic	mapquest com	how can we help mapquest help
+0	mapquest com	official mapquest maps driving directions live traffic	mapquest com	discover the new mapquest
