@@ -17,7 +17,7 @@ I test the code with the following packages. Other versions may also work, but I
 - [pytrec-eval](https://pypi.org/project/pytrec-eval/) 0.5  
 
 ## Usage
-- Obtain the data
+- Obtain the data (some data samples are provided in the data directory)
   - For AOL dataset, please contact the author of [CARS](https://arxiv.org/pdf/1906.02329.pdf)
   - For Tiangong dataset, you can download it from the [link](http://www.thuir.cn/tiangong-st/)
 - Prepare pretrained BERT
