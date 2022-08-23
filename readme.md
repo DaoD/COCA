@@ -2,8 +2,9 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
-## Abstract
 This repository contains the source code and datasets for the CIKM 2021 paper [Contrastive Learning of User Behavior Sequence for Context-Aware Document Ranking](https://arxiv.org/pdf/2108.10510.pdf) by Zhu et al. <br>
+
+## Abstract
 
 Context information in search sessions has proven to be useful for capturing user search intent. Existing studies explored user behavior sequences in sessions in different ways to enhance query suggestion or document ranking. However, a user behavior sequence has often been viewed as a definite and exact signal reflecting a user's behavior. In reality, it is highly variable: user's queries for the same intent can vary, and different documents can be clicked. To learn a more robust representation of the user behavior sequence, we propose a method based on contrastive learning, which takes into account the possible variations in user's behavior sequences.  Specifically, we propose three data augmentation strategies to generate similar variants of user behavior sequences and contrast them with other sequences. In so doing, the model is forced to be more robust regarding the possible variations. The optimized sequence representation is incorporated into  document ranking. Experiments on two real query log datasets show that our proposed model outperforms the state-of-the-art methods significantly, which demonstrates the effectiveness of our method for context-aware document ranking.
 
@@ -102,10 +103,20 @@ If you use the code and datasets, please cite the following paper:
                Pan Du and
                Xiaochen Zuo and
                Hao Jiang},
-  title     = {Contrastive Learning of User Behavior Sequence for Context-Aware Document Ranking},
+  editor    = {Gianluca Demartini and
+               Guido Zuccon and
+               J. Shane Culpepper and
+               Zi Huang and
+               Hanghang Tong},
+  title     = {Contrastive Learning of User Behavior Sequence for Context-Aware Document
+               Ranking},
   booktitle = {{CIKM} '21: The 30th {ACM} International Conference on Information
-               and Knowledge Management, Virtual Event, QLD, Australia, November 1-5, 2021},
+               and Knowledge Management, Virtual Event, Queensland, Australia, November
+               1 - 5, 2021},
+  pages     = {2780--2791},
   publisher = {{ACM}},
-  year      = {2021}
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3459637.3482243},
+  doi       = {10.1145/3459637.3482243}
 }
 ```
