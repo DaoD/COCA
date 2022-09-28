@@ -50,7 +50,7 @@ class ContrasDataset(Dataset):
             history_toks.extend(sent + ["[eos]"])
             segment_ids.extend([0] * (len(sent) + 1))
         query_tok += ["[eos]"]
-        query_tok += ["[SEP]"]
+#         query_tok += ["[SEP]"]
         doc_tok += ["[eos]"]
         doc_tok += ["[SEP]"]
         all_qd_toks = history_toks + query_tok + doc_tok
